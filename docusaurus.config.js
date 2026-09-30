@@ -4,7 +4,10 @@ const repositoryName = process.env.GITHUB_REPOSITORY
   ? process.env.GITHUB_REPOSITORY.split('/')[1]
   : 'hexmovr-openarm';
 
-const baseUrl = process.env.DOCUSAURUS_BASE_URL || `/${repositoryName}/`;
+// This repository is deployed as a GitHub Pages project site.
+// Keep the project prefix as the safe default even if GitHub Actions does not
+// expose DOCUSAURUS_BASE_URL (for example during a manual Pages rebuild).
+const baseUrl = process.env.DOCUSAURUS_BASE_URL || '/hexmovr-openarm/';
 const siteUrl = process.env.SITE_URL || 'https://hexmovr.github.io';
 
 /** @type {import('@docusaurus/types').Config} */
