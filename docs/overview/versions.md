@@ -16,6 +16,6 @@ sidebar_position: 3
 | ROS 2 | OpenArm ROS 2 ecosystem | HEXMovr ROS 2 package |
 | Simulation | MuJoCo / Isaac Lab ecosystem | Adapted assets and actuator interface |
 
-The upstream documentation currently labels its public documentation as version 2.0. citeturn0view0
+The upstream documentation currently labels its public documentation as version 2.0.
 
 Do not mix motor configuration files from different hardware revisions without checking the motor protocol, mechanical interface and joint limits.

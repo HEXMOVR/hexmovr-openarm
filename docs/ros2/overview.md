@@ -19,4 +19,4 @@ hexmovr_ros2/
 └── config/
 ```
 
-The upstream OpenArm project maintains a dedicated ROS 2 repository as part of its ecosystem. citeturn0search0
+The upstream OpenArm project maintains a dedicated ROS 2 repository as part of its ecosystem.

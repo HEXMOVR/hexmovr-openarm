@@ -24,7 +24,7 @@ This page defines the motor-adaptation boundary. Replace the placeholders below 
 
 ## Why this is a separate page
 
-The upstream OpenArm 2.0 documentation specifies different Damiao motor families for different joints. citeturn2search1
+The upstream OpenArm 2.0 documentation specifies different Damiao motor families for different joints.
 
 A HEXMovr adaptation should not copy those motor specifications into the new documentation. Instead, publish the actual HEXMovr motor values and explain how they map to the OpenArm joint interface.
 

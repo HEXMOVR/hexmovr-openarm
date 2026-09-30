@@ -24,4 +24,4 @@ SocketCAN / CAN-FD
 HEXMovr Motor
 ```
 
-The upstream ecosystem uses a similar separation between robot description, CAN control and ROS 2 integration. citeturn0search0
+The upstream ecosystem uses a similar separation between robot description, CAN control and ROS 2 integration.

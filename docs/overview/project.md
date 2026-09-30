@@ -22,7 +22,7 @@ This project separates three layers:
 
 This is an independent adaptation project. It is not an official OpenArm release and should not be represented as an Enactic product.
 
-The upstream OpenArm project is maintained by Enactic, Inc. Its current documentation describes OpenArm 2.0 as a 7-DOF arm and organizes the ecosystem around the arm, evaluation cell and KER leader. citeturn0view0
+The upstream OpenArm project is maintained by Enactic, Inc. Its current documentation describes OpenArm 2.0 as a 7-DOF arm and organizes the ecosystem around the arm, evaluation cell and KER leader.
 
 ## Recommended repository split
 

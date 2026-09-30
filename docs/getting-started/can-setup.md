@@ -6,7 +6,7 @@ sidebar_position: 4
 
 # CAN Setup
 
-The upstream OpenArm CAN tooling documents SocketCAN configuration and both Classic CAN and CAN-FD operation. citeturn2search0
+The upstream OpenArm CAN tooling documents SocketCAN configuration and both Classic CAN and CAN-FD operation.
 
 For a HEXMovr configuration, the exact nominal/data bitrate and frame format must come from the motor firmware specification.
 

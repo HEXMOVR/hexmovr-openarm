@@ -1,71 +1,91 @@
 # HEXMovr OpenArm
 
-**HEXMovr OpenArm** is an independent OpenArm-compatible 7-DOF humanoid arm adaptation using HEXMovr actuators and a HEXMovr-specific CAN/control layer.
+**HEXMovr OpenArm** is an independent OpenArm-compatible 7-DOF robotic-arm adaptation using HEXMovr actuators and a HEXMovr-specific CAN/control layer.
 
-> This repository is not an official OpenArm distribution and is not endorsed by Enactic, Inc.
+> This repository is not the official OpenArm distribution and does not imply endorsement by Enactic, Inc.
 
-## Project
+## What is included
 
-The project follows the public OpenArm software ecosystem while separating HEXMovr-specific implementation from the upstream robot architecture.
+- OpenArm-compatible project documentation
+- HEXMovr actuator adaptation documentation
+- CAN / CAN-FD integration notes
+- ROS 2 integration structure
+- URDF, MuJoCo and Isaac Lab documentation entry points
+- Hardware, calibration, troubleshooting and licensing documentation
+- Docusaurus website with GitHub Pages deployment
 
-### Main components
+## Repository layout
 
-| Component | Purpose |
-| --- | --- |
-| `openarm_description` | Adapted URDF/Xacro and robot description |
-| `hexmovr_can` | HEXMovr CAN library / low-level motor API |
-| `hexmovr_ros2` | ROS 2 hardware integration |
-| `hexmovr_teleop` | Teleoperation |
-| `hexmovr_mujoco` | MuJoCo assets |
-| `hexmovr_isaac_lab` | Isaac Lab integration |
-| `website` | Documentation |
+```text
+.
+├── .github/workflows/deploy.yml
+├── docs/
+├── src/
+├── static/
+├── docusaurus.config.js
+├── sidebars.js
+├── package.json
+└── BUILD.md
+```
 
-## Documentation
+## Local development
 
-The documentation site is built with Docusaurus.
+Requirements: Node.js 20 or newer.
 
 ```bash
-cd website
 npm install
 npm run start
 ```
 
-Open the local URL printed by Docusaurus.
+Production build:
 
-## Hardware adaptation
+```bash
+npm run build
+npm run serve
+```
 
-The motor adaptation changes the actuator-specific layer rather than the entire robot software architecture:
+The production files are generated in `build/`.
+
+## Hardware adaptation boundary
 
 ```text
 OpenArm-compatible robot model
             │
             ▼
-    HEXMovr adaptation
+    HEXMovr motor adapter
             │
             ▼
-       CAN / CAN-FD
+      HEXMovr CAN layer
             │
             ▼
-       HEXMovr motor
+       HEXMovr actuator
 ```
 
-Motor model, protocol, CAN IDs, limits and calibration values must be taken from the production HEXMovr hardware specification. The template intentionally does not invent those values.
+The exact motor model, CAN IDs, protocol fields, limits and calibration values should be taken from the verified HEXMovr production specification. The documentation template deliberately does not invent those values.
 
-## Upstream
+## Upstream OpenArm
 
 - OpenArm documentation: https://docs.openarm.dev/
 - OpenArm repository: https://github.com/enactic/openarm
 - OpenArm CAN: https://github.com/enactic/openarm_can
 - OpenArm hardware: https://github.com/enactic/openarm_hardware
 
-The upstream OpenArm repository currently organizes the ecosystem into hardware, description, CAN, ROS 2, teleoperation, Isaac Lab, MuJoCo and data-related repositories. citeturn0search0
+Upstream-derived files should retain their original copyright notices and applicable licenses.
 
 ## Licensing
 
-Review the `docs/legal/licenses.md` page before publishing.
+See `docs/legal/licenses.md` and `docs/legal/upstream-attribution.md` before publishing or distributing modified hardware/software.
 
-In particular, upstream software and upstream hardware/CAD have different licensing terms. The OpenArm main repository lists its software repositories as Apache-2.0, while the OpenArm hardware repository identifies its CAD/manufacturing data as CERN-OHL-S-2.0. citeturn0search0turn0search8
+Upstream software and hardware/CAD components may use different licenses. Do not treat the entire OpenArm ecosystem as a single-license project.
 
-## Status
+## GitHub Pages
 
-This repository is a documentation/source template for the HEXMovr motor-adapted platform. Replace all `TBD` fields with verified production specifications before release.
+The included workflow deploys the generated `build/` directory through GitHub Pages.
+
+For a repository site, the workflow automatically uses:
+
+```text
+/<repository-name>/
+```
+
+For a custom domain, set `DOCUSAURUS_BASE_URL` to `/` in `.github/workflows/deploy.yml` and configure the custom domain in GitHub Pages.

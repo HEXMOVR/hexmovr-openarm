@@ -14,11 +14,11 @@ Use the license selected by HEXMovr for newly written code, documentation, CAD a
 
 ## OpenArm software
 
-The upstream OpenArm main repository identifies its software repositories, including robot description and CAN control, as Apache-2.0. citeturn0search0
+The upstream OpenArm main repository identifies its software repositories, including robot description and CAN control, as Apache-2.0.
 
 ## OpenArm hardware
 
-The upstream OpenArm hardware repository identifies its CAD/manufacturing data as CERN Open Hardware Licence Version 2 — Strongly Reciprocal. citeturn0search8
+The upstream OpenArm hardware repository identifies its CAD/manufacturing data as CERN Open Hardware Licence Version 2 — Strongly Reciprocal.
 
 ## Practical rule
 

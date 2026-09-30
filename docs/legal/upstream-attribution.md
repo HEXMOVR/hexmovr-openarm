@@ -15,6 +15,6 @@ HEXMovr OpenArm uses concepts and/or software interfaces derived from the public
 - OpenArm CAN: https://github.com/enactic/openarm_can
 - OpenArm hardware: https://github.com/enactic/openarm_hardware
 
-The upstream main repository currently describes OpenArm as a 7-DOF humanoid arm and links to separate repositories for hardware, description, CAN, ROS 2, teleoperation, simulation and data tools. citeturn0search0
+The upstream main repository currently describes OpenArm as a 7-DOF humanoid arm and links to separate repositories for hardware, description, CAN, ROS 2, teleoperation, simulation and data tools.
 
 This project is an independent HEXMovr adaptation and is not an official Enactic distribution.

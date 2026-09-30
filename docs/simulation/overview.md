@@ -14,4 +14,4 @@ Recommended layers:
 - MuJoCo for dynamics and control experiments;
 - Isaac Lab for reinforcement learning and large-scale simulation.
 
-The upstream OpenArm ecosystem publishes separate MuJoCo and Isaac Lab repositories. citeturn0search0
+The upstream OpenArm ecosystem publishes separate MuJoCo and Isaac Lab repositories.

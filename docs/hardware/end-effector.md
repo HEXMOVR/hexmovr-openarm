@@ -17,6 +17,6 @@ Document:
 - camera interface, if present;
 - ROS 2 action/topic interface.
 
-The upstream OpenArm 2.0 documentation describes a compact parallel gripper with an in-hand camera. citeturn0view0
+The upstream OpenArm 2.0 documentation describes a compact parallel gripper with an in-hand camera.
 
 For a HEXMovr product, only claim those features if they are actually present in the released hardware.

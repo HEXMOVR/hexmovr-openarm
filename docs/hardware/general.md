@@ -33,4 +33,4 @@ For manufacturing, keep the following under revision control:
 - firmware revision;
 - URDF revision.
 
-The upstream hardware repository states that its CAD source includes STEP assemblies, BOMs and manufacturing information and is separately licensed under CERN-OHL-S-2.0. citeturn0search8
+The upstream hardware repository states that its CAD source includes STEP assemblies, BOMs and manufacturing information and is separately licensed under CERN-OHL-S-2.0.
