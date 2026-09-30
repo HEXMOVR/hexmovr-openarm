@@ -1,0 +1,15 @@
+HEXMovr OpenArm
+================
+
+This project is an independent adaptation built around the public OpenArm software ecosystem.
+
+Upstream references:
+- https://github.com/enactic/openarm
+- https://docs.openarm.dev/
+- https://github.com/enactic/openarm_can
+- https://github.com/enactic/openarm_hardware
+
+OpenArm software repositories are identified by the upstream project as Apache-2.0.
+OpenArm hardware/CAD is identified by the upstream hardware repository as CERN-OHL-S-2.0.
+
+This NOTICE does not replace the license files distributed with upstream source code.
