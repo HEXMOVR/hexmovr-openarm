@@ -55,10 +55,12 @@ export default function Home() {
           <div className="card-grid">
             <Feature title="Overview" text="Architecture, versions, upstream relationship and project scope." to="/docs/overview/project" />
             <Feature title="Hardware" text="HEXMovr motor adaptation, electrical interfaces, mechanics and end-effector integration." to="/docs/hardware/general" />
-            <Feature title="CAN API" text="Low-level motor communication, protocol mapping and programming interfaces." to="/docs/api-reference/can-api" />
+            <Feature title="CAN API" text="HEXMovr Classic CAN、命令表、MIT 协议与状态反馈。" to="/docs/api-reference/motor-protocol" />
             <Feature title="ROS 2" text="Controllers, launch configuration and integration with the robot description." to="/docs/ros2/overview" />
             <Feature title="Simulation" text="URDF, MuJoCo and Isaac Lab integration points." to="/docs/simulation/overview" />
-            <Feature title="Tutorials" text="From the first CAN frame to joint calibration and trajectory control." to="/docs/tutorial/motor-test" />
+            <Feature title="Safety & Operation" text="安全注意事项、快速 Demo、上电检查与异常处理。" to="/docs/safety/safety-notes" />
+            <Feature title="Calibration" text="V2 右臂零点标定、Count 换算与抓夹标定参考。" to="/docs/tutorial/v2-right-arm-zero" />
+            <Feature title="Source Materials" text="CAN 协议、座子接线和 ZE300 GUI 原始 PDF。" to="/docs/resources/source-materials" />
           </div>
         </section>
 
