@@ -14,6 +14,22 @@
 - Hardware, calibration, troubleshooting and licensing documentation
 - Docusaurus website with GitHub Pages deployment
 
+
+## 📁 Repositories
+
+
+| Repository                                                                 | Documentation                                                           | License                                                                            | Description                                                    |
+| -------------------------------------------------------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | -------------------------------------------------------------- |
+| **[openarm\_description](https://github.com/HEXMOVR/openarm_description)** | [Description Docs](https://docs.openarm.dev/api-reference/description/) | [Apache-2.0](https://github.com/enactic/openarm_description/blob/main/LICENSE.txt) | Robot description files with URDF/xacro for simulation         |
+| **[openarm\_can](https://github.com/HEXMOVR/openarm_can)**                 | [CAN Docs](https://docs.openarm.dev/api-reference/can/)                 | [Apache-2.0](https://github.com/enactic/openarm_can/blob/main/LICENSE.txt)         | CAN control library for low-level motor communication          |
+| **[openarm\_ros2](https://github.com/HEXMOVR/openarm_ros2)**               | [ROS2 Docs](https://docs.openarm.dev/api-reference/ros2/install)        | [Apache-2.0](https://github.com/enactic/openarm_ros2/blob/main/LICENSE)            | ROS2 integration packages and nodes                            |
+| **[openarm\_teleop](https://github.com/enactic/openarm_teleop)**           | [Teleop Docs](https://docs.openarm.dev/teleop/)                         | [Apache-2.0](https://github.com/enactic/openarm_teleop/blob/main/LICENSE.txt)      | Teleoperation packages with unilateral and bilateral control   |
+| **[openarm\_isaac\_lab](https://github.com/enactic/openarm_isaac_lab)**    | [Isaac Docs](https://docs.openarm.dev/simulation/)                      | [Apache-2.0](https://github.com/enactic/openarm_isaac_lab/blob/main/LICENSE.txt)   | Isaac Lab simulation environment and training tasks            |
+| **[openarm\_mujoco](https://github.com/enactic/openarm_mujoco)**           | [MuJoCo Docs](https://docs.openarm.dev/simulation/mujoco)               | [Apache-2.0](https://github.com/enactic/openarm_mujoco/blob/master/LICENSE)        | MuJoCo specification files and assets for OpenArm              |
+| **[openarm\_dataset](https://github.com/enactic/openarm_dataset)**         | [Dataset Docs](https://docs.openarm.dev/dataset/)                       | [Apache-2.0](https://github.com/enactic/openarm_dataset/blob/main/LICENSE.txt)     | Dataset format, recording tools, and Python API                |
+| **[dora-openarm](https://github.com/enactic/dora-openarm)**                | [Dora Docs](https://docs.openarm.dev/api-reference/dora/)               | [Apache-2.0](https://github.com/enactic/dora-openarm/blob/main/LICENSE)            | Dora dataflow nodes for data collection, inference, and teleop |
+
+
 ## Repository layout
 
 ```text
