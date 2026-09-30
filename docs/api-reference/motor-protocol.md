@@ -4,11 +4,13 @@ title: HEXMOVR CAN 通信协议 Rev.3.10b2
 sidebar_position: 2
 ---
 
+import DownloadLink from '@site/src/components/DownloadLink';
+
 # HEXMOVR CAN 通信协议 Rev.3.10b2
 
 本页整理 `HEXmovr电机CAN通信协议_3.10b2.pdf` 中与 OpenArm 集成最相关的内容。完整字段定义、全部命令和通信示例请直接查看原始 PDF。
 
-[下载完整协议 PDF](../../downloads/HEXMovr_CAN_Protocol_3.10b2.pdf)
+<DownloadLink href="/downloads/HEXMovr_CAN_Protocol_3.10b2.pdf">下载完整协议 PDF</DownloadLink>
 
 ## 1. 基本通信规则
 

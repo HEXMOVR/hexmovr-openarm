@@ -4,6 +4,8 @@ title: ZE300 GUI 上位机
 sidebar_position: 5
 ---
 
+import DownloadLink from '@site/src/components/DownloadLink';
+
 # ZE300 GUI 上位机
 
 当前资料中的 ZE300_GUI 软件用于通过 RS485 自定义通信协议连接产品，并提供实时信息、用户参数、运动控制和固件更新等功能。
@@ -115,4 +117,4 @@ Torque = Q-axis current × torque constant
 
 ## 原始资料
 
-- [下载：ZE300 GUI 上位机说明](../../downloads/ZE300_GUI_User_Guide_V3.03a.pdf)
+- <DownloadLink href="/downloads/ZE300_GUI_User_Guide_V3.03a.pdf">下载：ZE300 GUI 上位机说明</DownloadLink>

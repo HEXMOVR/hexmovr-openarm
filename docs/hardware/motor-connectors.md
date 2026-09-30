@@ -4,6 +4,8 @@ title: 电机接口与接线
 sidebar_position: 3
 ---
 
+import DownloadLink from '@site/src/components/DownloadLink';
+
 # 电机接口与接线
 
 本页整理当前提供的 HEXMOVR 电机座子接线资料。具体电机版本应以对应驱动板丝印和产品资料为准。
@@ -59,4 +61,4 @@ sidebar_position: 3
 
 ## 原始资料
 
-- [下载：HEXMovr 电机座子接线说明](../../downloads/HEXMovr_Motor_Connector_Wiring_260611.pdf)
+- <DownloadLink href="/downloads/HEXMovr_Motor_Connector_Wiring_260611.pdf">下载：HEXMovr 电机座子接线说明</DownloadLink>

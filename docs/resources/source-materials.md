@@ -4,15 +4,17 @@ title: 原始资料与下载
 sidebar_position: 1
 ---
 
+import DownloadLink from '@site/src/components/DownloadLink';
+
 # 原始资料与下载
 
 本页集中列出目前已经整理并用于本网站的原始资料。网页中的参数、接线、CAN 命令和标定数据应优先以对应原始资料和最终产品版本为准。
 
 ## 电机资料
 
-- [HEXMovr 电机 CAN 通信协议 Rev.3.10b2](../../downloads/HEXMovr_CAN_Protocol_3.10b2.pdf)
-- [HEXMovr 电机座子接线说明](../../downloads/HEXMovr_Motor_Connector_Wiring_260611.pdf)
-- [ZE300 GUI 上位机说明 V3.03a](../../downloads/ZE300_GUI_User_Guide_V3.03a.pdf)
+- <DownloadLink href="/downloads/HEXMovr_CAN_Protocol_3.10b2.pdf">HEXMovr 电机 CAN 通信协议 Rev.3.10b2</DownloadLink>
+- <DownloadLink href="/downloads/HEXMovr_Motor_Connector_Wiring_260611.pdf">HEXMovr 电机座子接线说明</DownloadLink>
+- <DownloadLink href="/downloads/ZE300_GUI_User_Guide_V3.03a.pdf">ZE300 GUI 上位机说明 V3.03a</DownloadLink>
 
 ## 当前网页已整理内容
 
